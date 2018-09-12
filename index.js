@@ -60,4 +60,4 @@ if(message.content.startsWith(prefix + "clear"))
     }
 )}})
 
-client.login("NDg3OTYzMjkwODY2Mjg2NTky.DnVTYQ.46r_Wq2RWlOYCOR-VgtGhSPl4NQ");
+client.login(process.env.TOKEN);
