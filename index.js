@@ -5,7 +5,7 @@ const client = new Discord.Client();
 var prefix = "/";
 
 //client.login("NDg3OTYzMjkwODY2Mjg2NTky.DnVTYQ.46r_Wq2RWlOYCOR-VgtGhSPl4NQ");
-client.login(process.env."NDg3OTYzMjkwODY2Mjg2NTky.DnVTYQ.46r_Wq2RWlOYCOR-VgtGhSPl4NQ");
+//client.login(process.env."NDg3OTYzMjkwODY2Mjg2NTky.DnVTYQ.46r_Wq2RWlOYCOR-VgtGhSPl4NQ");
 
 client.on("ready", () => 
 {
@@ -59,3 +59,5 @@ if(message.content.startsWith(prefix + "clear"))
         message.channel.send(`${args[0]} messages ont été supprimé`);
     }
 )}})
+
+client.login("NDg3OTYzMjkwODY2Mjg2NTky.DnVTYQ.46r_Wq2RWlOYCOR-VgtGhSPl4NQ");
