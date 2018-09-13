@@ -14,10 +14,10 @@ client.on('message', message =>
     const role2 = message.guild.roles.find('name', 'EC');
     const role1 = message.guild.roles.find('name', 'IR');
 
-    if(message.content === "Pablo t'es gay?") 
-    {                
-        message.channel.sendMessage("Oui il est gay, et au passage quand il jouit il chante du Tal...C'est assez génant...");
-    }
+ 
+                
+
+
     if(message.content === "Oui") 
     {        
         message.channel.sendMessage("Non, je t'assure que non");
