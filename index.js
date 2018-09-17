@@ -13,18 +13,16 @@ client.on('message', message =>
 {
     const role2 = message.guild.roles.find('name', 'EC');
     const role1 = message.guild.roles.find('name', 'IR');
-
- 
-                
-
-
+             
     if(message.content === "Oui") 
     {        
         message.channel.sendMessage("Non, je t'assure que non");
     }
     if(message.content === "Non") 
     {        
-        message.channel.sendMessage("bril...désolé :/");
+        message.channel.sendMessage("bril");
+        setTimeout(2000);
+        message.channel.sendMessage("désolé :/");
     }
     if(message.content === prefix + "IR") 
     {        
