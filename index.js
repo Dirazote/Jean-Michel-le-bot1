@@ -20,9 +20,7 @@ client.on('message', message =>
     }
     if(message.content === "Non") 
     {        
-        message.channel.sendMessage("bril")
-        setInterval(2000)
-        message.channel.sendMessage("désolé :/");
+        message.channel.sendMessage("bril...")        
     }
     if(message.content === prefix + "IR") 
     {        
