@@ -22,6 +22,10 @@ client.on('message', message =>
     {        
         message.channel.sendMessage("Non, je t'assure que non");
     }
+    if(message.content === "Non") 
+    {        
+        message.channel.sendMessage("bril...désolé :/");
+    }
     if(message.content === prefix + "IR") 
     {        
         message.member.removeRole(role2)        
