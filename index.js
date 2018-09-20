@@ -38,7 +38,7 @@ client.on('message', message =>
     {        
         message.channel.sendMessage("feur")        
     }
-    if(message.content === prefix + prefix + "help") 
+    if(message.content === "!help") 
     {
         var help = new Discord.RichEmbed()
         .setColor("#F40000")        
