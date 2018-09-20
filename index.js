@@ -34,6 +34,10 @@ client.on('message', message =>
         message.member.addRole(role2)
         message.channel.sendMessage("C'est bon votre réponse a bien été prise en compte ^^");
     }
+    if(message.content === "Quoi?") 
+    {        
+        message.channel.sendMessage("feur")        
+    }
     if(message.content === prefix + "help") 
     {
         var help = new Discord.RichEmbed()
