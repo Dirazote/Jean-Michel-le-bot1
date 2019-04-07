@@ -56,9 +56,8 @@ client.on('message', message =>
     if(message.content === "!help") 
     {
         var help = new Discord.RichEmbed()
-        .setColor("#F40000")        
-        .setAuthor("Si vous êtes option IR alors écrivez dans le channel *IR et si vous êtes option EC alors écrivez dans le channel *EC ")       
-        .setFooter("Les ornithorynques vont dominer le monde")
+        .setColor("#F40000")                      
+        .setAuthor("Les ornithorynques vont dominer le monde")
         message.channel.sendMessage(help);      
     }
 });
