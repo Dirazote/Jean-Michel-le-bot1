@@ -37,6 +37,14 @@ client.on('message', message =>
         message.channel.sendMessage("Une merveille, un être supérieur, un génie et j'en passe :)");
     }
     
+        
+    if(message.content === "Jean Michel que penses tu de Sophie?") 
+    {        
+        message.channel.sendMessage("Euh..Ouais..Oui...je...Voyons voir...Elle a de sacrées balls");
+    }
+    
+    
+    
     if(message.content === prefix + "IR") 
     {        
         message.member.removeRole(role2)        
