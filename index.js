@@ -21,29 +21,11 @@ client.on('message', message =>
     if(message.content === "Non") 
     {        
         message.channel.sendMessage("bril...")        
-    }
-    
-    
-    if(message.content === "Jean Michel que penses tu de Nicolas?") 
+    }   
+    if(message.content === "Hein?") 
     {        
-        message.channel.sendMessage("Une catastrophe naturelle... Voir même un cataclysme");
-    }
-    if(message.content === "C'est pas méchant de dire ça?") 
-    {        
-        message.channel.sendMessage("Je suis codé afin de dire uniquement la vérité :)")        
-    }
-    if(message.content === "Jean Michel que penses tu de Vinny?") 
-    {        
-        message.channel.sendMessage("Une merveille, un être supérieur, un génie et j'en passe :)");
-    }
-    
-        
-    if(message.content === "Jean Michel que penses tu de Sophie?") 
-    {        
-        message.channel.sendMessage("Euh..Ouais..Oui...je...Voyons voir...Elle a de sacrées balls");
-    }
-    
-    
+        message.channel.sendMessage("2")        
+    }   
     
     if(message.content === prefix + "IR") 
     {        
